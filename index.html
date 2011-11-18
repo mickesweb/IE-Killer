@@ -1,0 +1,48 @@
+<!DOCTYPE HTML> 
+<html> 
+    <head> 
+
+        <title>Mickesweb - IE Killer</title>
+
+        <meta charset="UTF-8" /> 
+        <meta name="application-name" content="IE Killer" />
+        <meta name="description" content="A script to check and recommend a better browser." />
+        <meta name="keywords" content="IE Killer, browser, Mickesweb" />
+        <meta name="author" content="Mikael Andersson" />
+        <meta name="homepage" content="mickesweb.se" />
+
+        <link rel="stylesheet" type="text/css" href="css/style.css" />
+
+        <script type="text/javascript" src="js/jquery.1.4.2.min.js"></script>
+        <script type="text/javascript" src="js/mw.iekiller.js"></script>
+    </head>
+    <body>
+        <div id="shadowlayer" class="hidden" onclick="closeWindow();"></div>
+        <div id="closetopbox" class="hidden" title="Close" onclick="closeWindow();"></div>
+        <div id="oldie" class="hidden">
+            <h1>Please upgrade your browser</h1>
+            <p>You are using an outdated version of Internet Explorer, it can pose a security risk. 
+            Newer browsers also support new functionality and provide a better and faster experience on the Internet.</p>
+            <p>We recommend you to update to the latest version of Internet Explorer or choose a different browser.</p>
+            <h1>Select a browser:</h1>
+            <a href="http://www.mozilla.org/sv-SE/firefox/new/" class="browserLink" title="Firefox" target="_blank">
+                <img class="browserIcon" src="images/browsers/firefox.png" alt="Firefox" />
+            </a>
+            <a href="http://www.opera.com/download/" title="Opera" class="browserLink" target="_blank">
+                <img class="browserIcon" src="images/browsers/opera.png" alt="Opera" />
+            </a>
+            <a href="http://www.google.com/chrome?hl=sv" title="Chrome" class="browserLink" target="_blank">
+                <img class="browserIcon" src="images/browsers/chrome.png" alt="Chrome" />
+            </a>
+            <a href="http://www.apple.com/se/safari/" title="Safari" class="browserLink" target="_blank">
+                <img class="browserIcon" src="images/browsers/safari.png" alt="Safari" />
+            </a>
+            <a href="http://windows.microsoft.com/sv-SE/internet-explorer/downloads/ie" class="browserLink" title="Internet Explorer 9" target="_blank">
+                <img class="browserIcon" src="images/browsers/ie.png" alt="Internet Explorer 9" />
+            </a>
+        </div>
+        
+        <h1>Welcome to this page!</h1>
+        
+    </body>
+</html>

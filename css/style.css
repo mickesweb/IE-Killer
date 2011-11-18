@@ -1,0 +1,81 @@
+/*
+ * @verson : 1.0
+ * @contact : via mickesweb.se
+ * @author :  Mikael Andersson <mikael@mickesweb.se>
+ * Last Updated: 2011-11-19
+*/
+/* -- RESET ALL ------------------------------------------------------------- */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
+pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd,
+q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form,
+label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-weight: inherit;
+    font-style: inherit;
+    font-size: 100%;
+    font-family: inherit;
+    background: transparent;
+}
+/* -- TEXT ---------------------------------------------------------------- */
+h1 {
+    font-size: 22px;
+    margin: 10px 0 10px 0;
+}
+/* -- OTHER --------------------------------------------------------------- */
+.hidden {
+    display: none;
+}
+
+/* -- IE KILLER ------------------------------------------------------------ */
+
+div#oldie {
+    top: 120px;
+    left: 50%;
+    padding: 10px;
+    margin-left: -300px;
+    position: fixed;
+    background-color: #ffffff; 
+    width: 600px; 
+    height: 300px; 
+    z-index: 200; 
+    border:3px solid #002438; 
+    /*border-radius: 10px;*/
+}
+
+.browserIcon {
+    width: 64px; 
+    height: 64px;
+    border: 0px;
+}
+
+.browserLink {
+    text-decoration: none;
+}
+
+div#closetopbox {
+    background-image: url(../images/close.png);
+    border: 0px;
+    width: 48px;
+    height: 48px;
+    top: 100px;
+    left: 50%;
+    margin-left: 290px;
+    position: fixed;
+    z-index: 300;
+
+}
+
+div#shadowlayer {
+    background-color: #000000; 
+    opacity: 0.7; 
+    width: 100%; 
+    height: 100%; 
+    z-index: 150; 
+    background-repeat: repeat; 
+    position: fixed; 
+    top: 0; 
+    left: 0;
+}
